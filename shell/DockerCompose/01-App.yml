@@ -1,0 +1,22 @@
+---
+version: "3"
+services:  
+  taxajurosapi:
+    image: guidaross/taxajuros-api:1.0    
+    hostname: taxajurosapi
+    ports:
+      - "81:80"
+    networks:
+      - juros
+
+  calculajurosapi:
+    image: guidaross/calculajuros-api:1.0    
+    hostname: calculajurosapi
+    ports:
+      - "82:80"
+    networks:
+      - juros
+      
+networks:
+  juros:
+    driver: bridge
