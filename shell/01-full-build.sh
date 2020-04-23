@@ -3,7 +3,7 @@ echo ""
 
 rm -r "../Api1/bin/Release/netcoreapp3.1"
 
-cd ..
+cd ../src
 
 git pull https://github.com/devguidaross/netcore.git
 
@@ -39,7 +39,7 @@ echo ""
 
 rm -r "../Api2/bin/Release/netcoreapp3.1"
 
-cd ..
+cd ../src
 
 git pull https://github.com/devguidaross/netcore.git
 
