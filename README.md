@@ -19,3 +19,9 @@ Na pasta shell deste repositório foram criado os seguintes arquivos:
 docker-compose -f 01-App.yml -p juros up --no-start 
 docker-compose -f 01-App.yml -p juros start
 ```
+
+Após aplicar o docker compose, as aplicações ficarão nas portas 81 e 82, podendo ser acessadas através dos seguintes links:
+http://localhost:81/swagger
+http://localhost:82/swagger
+
+Dúvidas, estou à disposição
